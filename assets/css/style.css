@@ -59,13 +59,15 @@ h1 {
 }
 
 .see{
-	background-color: rgba(161, 176, 255, 0.69);
-	width: 590px;
+	background-color: rgba(20, 0, 5, 0.69);
+	width: 700px;
 	height: 70px;
 	padding-left: 10px;
 }
 
-
+#bg{
+  width: 710px
+}
 
 
 
