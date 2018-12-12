@@ -1,0 +1,102 @@
+body{
+  background-color:white;
+  color:rgb(103, 103, 103);
+  font-family: "courier new"
+}
+
+.bx{
+	background-color: rgb(212, 7, 7);
+	color: white;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	align-content: center;
+}
+
+
+.em{
+	grid-area: bx em;
+	min-height: 500px;
+	background: white;
+	color: white;
+	background-size: auto;
+  background-image: "../images/red1.jpg"
+	background-position: bottom left;
+	padding: 10px;
+	display: grid;
+	justify-content: center;
+    align-content: center;
+}
+
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+h1 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-gap: 20px;
+}
+
+
+.wrapper{
+	display: grid;
+	grid-gap: 20px;
+}
+
+.top{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-areas:
+
+
+}
+
+.see{
+	background-color: rgba(198, 198, 198, 0.69);
+	width: 250px;
+	height: 100px;
+	padding-left: 10px;
+}
+
+
+
+
+
+.bx p{
+	margin: 0;
+}
+
+.menu ul{
+	display: grid;
+	padding: 0;
+	list-style: none;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+li{
+	margin-right: 10px;
+	text-align: center;
+	font-size: 20px;
+
+
+}
+
+.menu a{
+	color: white;
+		margin-right: 30px;
+		margin-bottom: 20px;
+	background-color: #rgb(212, 7, 7);
+}
+
+.menu a:hover{
+	text-decoration: underline;
+	margin-right: 20px;
+	background-color: #ababab;
+}
