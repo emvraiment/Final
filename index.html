@@ -12,6 +12,9 @@
 <body>
 
 
+
+
+
 <div class="em">
 
   <img src="assets/images/red1.jpg" id="bg" />
@@ -20,12 +23,20 @@
 
 <div class="bx">
         <nav class="menu">
-         <ul id="menulist">
+         <ul id="menulists>
              <a href=""><li><a href="about.html"> About</li></a>
-             <a href=""><li>Concept One</li></a>
-             <a href=""><li>Concept Two</li></a>
-             <a href=""><li>Concept Three<li></a>
+             <a href=""><li><a href="concept1.html"> Concept One </li></a>
+             <a href=""><li><a href="concept2.html"> Concept Two </li></a>
+             
 
       </nav>
+
+      <script src="jquery.js"></script>
+      <script src="jquery.sticky.js"></script>
+      <script>
+        $(document).ready(function(){
+          $("#sticker").sticky({topSpacing:0});
+        });
+      </script>
 
       </header>
